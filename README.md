@@ -10,17 +10,25 @@ Importing necessary libraries from TensorFlow and TensorFlow Hub.
 Preprocessing input text using the BERT tokenizer, which prepares the text for the BERT model by tokenizing and creating attention masks.
 Loading the BERT model for embedding extraction.
 Extracting embeddings (both token-wise and pooled) from the text.
+
 Explanation of different output embeddings:
+
   input_word_ids
+  
   input_type_ids
+  
   input_mask
+  
   sequence_output
+  
   pooled_output
   
 ## Key Concepts
 
 Preprocessing: The text is tokenized and converted into input format suitable for the BERT model using TensorFlow Hub's BERT preprocessing layer.
+
 Embeddings: The notebook extracts both the sequence output (embeddings for each token) and the pooled output (a fixed-size embedding for the entire input sequence).
+
 Pooled Output: The pooled output is commonly used in classification tasks and represents the final hidden state of the [CLS] token in BERT.
 
 Install the dependencies using:
