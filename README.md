@@ -31,6 +31,8 @@ Embeddings: The notebook extracts both the sequence output (embeddings for each 
 
 Pooled Output: The pooled output is commonly used in classification tasks and represents the final hidden state of the [CLS] token in BERT.
 
+## Dependencies
+
 Install the dependencies using:
 bash
 `pip install tensorflow tensorflow-hub tensorflow-text`
